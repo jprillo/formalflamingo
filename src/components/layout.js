@@ -1,5 +1,6 @@
 import React from "react"
 import NavBar from "./navbar"
+import "../style/global.scss"
 
 
 class Layout extends React.Component {
