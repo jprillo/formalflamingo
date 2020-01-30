@@ -1,6 +1,8 @@
 import React from "react"
 import {Link} from "gatsby"
-const NavBar = () => {    
+
+
+const NavMenu = () => {
     return(
         <div>
         <Link to="/">
@@ -20,6 +22,11 @@ const NavBar = () => {
         </Link>
 
         </div>
+    )
+}
+const NavBar = () => {    
+    return(
+   <NavMenu></NavMenu>    
 
     )
 }

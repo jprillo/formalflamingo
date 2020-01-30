@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "./navbar"
-import "../style/global.scss"
+import "../style/main.scss"
+import Zoom from 'react-reveal/Zoom';
 
 
 class Layout extends React.Component {
@@ -10,8 +11,10 @@ class Layout extends React.Component {
     
     return (
       <div>
-        <header>          
-          <NavBar></NavBar>          
+        <header>  
+          <Zoom>        
+          <NavBar></NavBar>  
+          </Zoom>        
           </header>
         <main>{children}</main>
         <footer>
