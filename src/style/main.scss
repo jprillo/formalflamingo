@@ -5,15 +5,22 @@
 @import "global/flexbox";
 
 
-.contain{
-  padding: 1rem 5% ;
-  @include breakpoint(md){
-    padding: 1rem 10%;
-  }
-  
+section{
+  padding: 80px 15%;
 }
+.nav-menu a{
+ 
+  color: green;
+}
+
+
+
 .hero-image{
     text-align:center;
+    padding: 0 10%;
+    @include breakpoint(md){
+      padding: 0;
+    }
     
   }
   .hero-page{
@@ -25,5 +32,88 @@
   }
   
   }
+  .btn-margin{
+    margin: 1.7em 0;
+    @include breakpoint(md){
+   
+   margin: 2.2em 0;
+      
+   }
+  }
+  .primary-button{
+    padding: .5em 1em; 
+    font-weight: bold;
+    font-size: 20px;
+    background: #FF1988;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: .12em .20em .12em rgba(0, 0, 0, 0.25);
+    margin: 50px 0 0 0;   
+    color: white;
+    ;    
+    font-family: $primary-font;        
+    &:hover{
+        background: $hover-color;     
+        color: black;
+        transition:.2s
+    }
+    &:active{
+        box-shadow: .08em .16em .08em rgba(0, 0, 0, 0.55);
+    }
+    @media (min-width: 1024px) {
+        font-size: 23px;
+      }
+  }
 
 
+ .align-center{
+text-align: center;
+ }
+  
+
+ 
+.main-card{
+  background: inherit;
+  box-shadow: 2px 2px black;
+  width: 299px;
+  height: 511px;
+  border: 5px solid #97CFED;
+box-sizing: border-box;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  
+  padding: 15px 25px 20px;
+  text-align: center;
+  margin: 17px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  p{ 
+  padding: 0 2%;    
+  }
+  h5{
+   text-align: center;
+  }
+  
+  @include breakpoint(md){
+    margin:17px;
+  }
+
+  
+  img{
+      margin: 30px 0;
+  }
+  
+ 
+  
+  }
+
+  
+.card-container{
+  text-align: center;
+  background: white;
+ 
+}
+
+.fix{
+  padding-top: 6px;
+}

@@ -4,20 +4,20 @@ import {Link} from "gatsby"
 
 const NavMenu = () => {
     return(
-        <div>
-        <Link to="/">
+        <div className="nav-menu">
+        <Link className="link" to="/">
             HOME
         </Link>
 
-        <Link to="/about">
+        <Link className="link" to="/about">
         ABOUT
         </Link>
 
-        <Link to="/blog">
+        <Link className="link" to="/blog">
         BLOG
         </Link>
 
-        <Link to="/contact">
+        <Link className="link" to="/contact">
         CONTACT
         </Link>
 

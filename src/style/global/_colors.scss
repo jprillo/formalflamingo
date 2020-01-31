@@ -9,6 +9,16 @@ $hover-color: pink;
 $hover-color2: rgb(255, 196, 0);
 $active-color:rgb(255, 196, 0);
 
+.light-back2{
+    background: $light-color2;
+}
+.light-back1{
+    background: $light-color1;
+}
+.secondary-back{
+    background: $secondary-color;
+}
+
 
 /* Nav Colors */
 $nav-color: inherit;
