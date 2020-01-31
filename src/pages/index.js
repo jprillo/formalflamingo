@@ -2,13 +2,15 @@ import React from "react"
 
 import Layout from "../components/layout"
 import flamingo from  "../img/flamingo-illustration.svg"
+import "../style/main.scss"
+
 
 const IndexPage = () => {
  
   return(
     <div>
       <Layout>
-      <section>
+<section>
 <div className='hero-page'>
   <div className="flex">
     <div className="col-6">    
@@ -16,16 +18,11 @@ const IndexPage = () => {
       <h2>Give your business a leg up with a great website</h2> 
     </div>
     <div className="col-6 hero-image">
-    <img src={flamingo}></img>
+    <img src={flamingo} alt="a flaingo with a tophat and bowtie"></img>
     </div>
-
+  </div>  
   </div>
-  
-  </div>
-
-
-
-</section>
+  </section>
 
     </Layout>
     </div>

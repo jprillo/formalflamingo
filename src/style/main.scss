@@ -1,14 +1,23 @@
 @import "global/reset";
 @import "global/breakpoints";
 @import "global/colors";
+@import "global/typography";
 @import "global/flexbox";
 
 
+.contain{
+  padding: 1rem 5% ;
+  @include breakpoint(md){
+    padding: 1rem 10%;
+  }
+  
+}
 .hero-image{
     text-align:center;
+    
   }
   .hero-page{
-    padding: 10% 10% 10% 15%;  
+    padding: 5% 0 0 0 ;  
     background-color: white;  
   
   @include breakpoint(md){

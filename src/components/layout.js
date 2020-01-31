@@ -1,6 +1,6 @@
 import React from "react"
 import NavBar from "./navbar"
-import "../style/main.scss"
+
 import Zoom from 'react-reveal/Zoom';
 
 
@@ -10,18 +10,21 @@ class Layout extends React.Component {
    
     
     return (
-      <div>
+      <div >    
         <header>  
           <Zoom>        
           <NavBar></NavBar>  
           </Zoom>        
           </header>
-        <main>{children}</main>
+        <main className="contain">{children}</main>        
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+         
+
+
+          <a href="https://www.gatsbyjs.org">Formal Flamingo Web Design</a>
+          © {new Date().getFullYear()}
         </footer>
+      
       </div>
     )
   }

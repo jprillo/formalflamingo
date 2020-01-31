@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import "../style/main.scss"
 
 class BlogIndex extends React.Component {
   render() {
@@ -15,7 +16,16 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        
+        <section>
+<div className='hero-page'>
+  <div className="flex">
+    <div className="col-6">    
+      <h1>Blog</h1>     
+      <h2>Learn about our web design and development process </h2> 
+    </div>   
+  </div>  
+  </div>
+  </section>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
