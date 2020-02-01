@@ -12,9 +12,9 @@ const AboutPage = () => {
             
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-7">    
-      <h1>About Us</h1>     
-      <h2>We are passionate about modern web development and design</h2> 
+    <div className="col-7" style={{margin: "0 auto"}}>    
+      <h1 className="align-center">About Us</h1>     
+      <h2 className="align-center">We are passionate about modern web development and design</h2> 
     </div>   
   </div>  
   </div>

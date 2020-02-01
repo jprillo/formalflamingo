@@ -1,25 +1,27 @@
 import React from "react"
 import {Link} from "gatsby"
 
-
+const activeStyle = {
+    color: '#FF1988',
+  }
 
 const NavMenu = () => {
     return(
         
         <div className="nav-menu">
-        <Link className="link" to="/">
+        <Link className="link" to="/" activeStyle={activeStyle}>
             HOME
         </Link>
 
-        <Link className="link" to="/about">
+        <Link className="link" to="/about" activeStyle={activeStyle}>
         ABOUT
         </Link>
 
-        <Link className="link" to="/blog">
+        <Link className="link" to="/blog" activeStyle={activeStyle}>
         BLOG
         </Link>
 
-        <Link className="link" to="/contact">
+        <Link className="link" to="/contact" activeStyle={activeStyle}>
         CONTACT
         </Link>
 

@@ -20,7 +20,7 @@ class BlogPostTemplate extends React.Component {
         />
         <article>
           <header>
-          <section>
+          
 <div className='hero-page'>
   <div className="flex">
     <div className="col-6">  
@@ -30,11 +30,13 @@ class BlogPostTemplate extends React.Component {
     </div>   
   </div>  
   </div>
-  </section>
+  
            
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          
+          <div className="col-7" style={{paddingTop: "30px",margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: post.html }} />
          
+       
           <footer  className="light-back2">
           <nav className="light-back2" style={{padding: "2% 5%"}}>
           <ul

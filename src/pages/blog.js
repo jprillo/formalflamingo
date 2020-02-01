@@ -19,9 +19,9 @@ class BlogIndex extends React.Component {
         
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-7">    
-      <h1>Blog</h1>     
-      <h2>Learn about our web design and development process </h2> 
+    <div className="col-7 " style={{margin: "0 auto"}}>    
+      <h1 className="align-center">Blog</h1>     
+      <h2 className="align-center">Learn about our web design and development process </h2> 
     </div>   
   </div>  
   </div>

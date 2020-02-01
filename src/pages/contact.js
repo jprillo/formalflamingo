@@ -10,13 +10,29 @@ const Contact = () => {
           
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-7">    
-      <h1>Contact</h1>     
-      <h2>Let's start maximizing your business online.</h2> 
-    </div>   
+    <div className="col-7" style={{margin: "0 auto"}}>    
+      <h1 className="align-center">Contact</h1>     
+      <h2 className="align-center">Let's start maximizing your business online.</h2> 
+    </div>  
+    
+     
   </div>  
   </div>
-  
+  <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+ 
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
             </Layout>  
         </div>
