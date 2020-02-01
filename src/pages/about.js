@@ -9,16 +9,16 @@ const AboutPage = () => {
         <div>
            <Layout>
 
-            <section>
+            
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-6">    
+    <div className="col-7">    
       <h1>About Us</h1>     
       <h2>We are passionate about modern web development and design</h2> 
     </div>   
   </div>  
   </div>
-  </section>
+ 
 
 
             </Layout>  

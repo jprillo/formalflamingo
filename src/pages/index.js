@@ -10,6 +10,7 @@ import CardOne from "../components/cardone"
 import CardTwo from "../components/cardtwo"
 import boy from "../img/boy-on-computer.svg"
 import "../style/main.scss"
+import Fade from 'react-reveal/Fade';
 
 
 const IndexPage = () => {
@@ -38,12 +39,12 @@ const IndexPage = () => {
   <section className="hero-about light-back2">
 <h3>We are passionate about building beautiful websites with modern technology</h3>
 <div className="flex margin-top">
-  
+  <Fade left>
   <div className="col-6 hero-image">
 <img src={creatures} alt="ok"></img>
-  </div>
-  
-  
+  </div>  
+  </Fade>
+  <Fade right>
   <div className="col-6 text-left ">
 
 <p>Our websites are ...</p>
@@ -58,7 +59,7 @@ const IndexPage = () => {
   </div>
   
   </div>
-  
+  </Fade> 
 </div>
 </section>
 
@@ -66,7 +67,7 @@ const IndexPage = () => {
   <h3>Services</h3>
   <p>We are online problem-solvers who specialize in getting the most from your website</p>
 
-<div className="flex fix">
+<div className="flex justify-center" style={{margin: "50px 0"}}>
   
 <CardOne 
 title= "Web Design"
@@ -102,6 +103,7 @@ alt= "bozo"
 </section>
 
 <section className="two-panel light-back2">
+<Fade left>
   <h3 className="text-center" >Look at our SPEED!!! </h3>
   <div className="flex btn-margin">
     <div className="col-6">
@@ -113,7 +115,7 @@ alt= "bozo"
       
     </div>
   </div>
-
+  </Fade>
 </section>
 
 <CTA

@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+
 import "../style/main.scss"
 
 class BlogIndex extends React.Component {
@@ -16,42 +16,43 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <section>
+        
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-6">    
+    <div className="col-7">    
       <h1>Blog</h1>     
       <h2>Learn about our web design and development process </h2> 
     </div>   
   </div>  
   </div>
-  </section>
+  
+  <section className="flex blog-wrap" >
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+            <article  className="col-5 blog-article" key={node.fields.slug}>
+              <header >
+              <small>{node.frontmatter.date}</small>
+                <h3 style={{padding: "5px"}}>
+                  <Link  to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
+               
               </header>
-              <section>
+              <div>
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
-              </section>
+              </div>
+              <Link  to={node.fields.slug}>
+                    Read More
+                  </Link>
             </article>
           )
-        })}
+        })}</section>
       </Layout>
     )
   }

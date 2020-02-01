@@ -7,17 +7,16 @@ const Contact = () => {
    
         <div>
            <Layout>
-           <section>
+          
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-6">    
+    <div className="col-7">    
       <h1>Contact</h1>     
       <h2>Let's start maximizing your business online.</h2> 
     </div>   
   </div>  
   </div>
-  </section>
-
+  
 
             </Layout>  
         </div>
