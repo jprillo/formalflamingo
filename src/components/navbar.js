@@ -1,9 +1,4 @@
-import React from "react"
-import {Link} from "gatsby"
 
-const activeStyle = {
-    color: '#FF1988',
-  }
   import React from "react"
   import {Link} from "gatsby"
   
