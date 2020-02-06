@@ -17,18 +17,18 @@ const activeStyle = {
           <div className={` navagation-wrap col-12 ${isActive ? 'mobile-wrap' : ''}`}> 
   
               <div id="main-nav-wrap">
-                  <div class="logo-wrap">
+                  <div className="logo-wrap">
                       <Link href="/">
                     <span style={{color: "black", fontWeight: "bold"}}>Formal</span><span className="primary-color">Flamingo</span> </Link>
   
                   </div>
                   <div >
                       <div  className={` responsive-nav ${isActive ? 'mobile-nav' : ''}`}>
-                          <ul class="nav">
-                              <li><Link class="hack" activeStyle={activeStyle} to="/">Home</Link></li>
-                              <li><Link to="/about" activeStyle={activeStyle} class="hack">About</Link></li>
-                              <li><Link to="/blog" activeStyle={activeStyle} class="hack">Blog</Link></li>
-                              <li><Link to="/contact" activeStyle={activeStyle} class="hack">Contact</Link></li>
+                          <ul className="nav">
+                              <li><Link className="hack" activeStyle={activeStyle} to="/">Home</Link></li>
+                              <li><Link to="/about" activeStyle={activeStyle} className="hack">About</Link></li>
+                              <li><Link to="/blog" activeStyle={activeStyle} className="hack">Blog</Link></li>
+                              <li><Link to="/contact" activeStyle={activeStyle} className="hack">Contact</Link></li>
                            
   
                             
@@ -42,9 +42,9 @@ const activeStyle = {
               data-target='nav-menu'
               onClick={toggleNavbar}
               aria-hidden={true}>
-                          <span class="line line01"></span>
-                          <span class="line line02"></span>
-                          <span class="line line03"></span>
+                          <span className="line line01"></span>
+                          <span className="line line02"></span>
+                          <span className="line line03"></span>
                       </div>
                   </div>
               </div>
