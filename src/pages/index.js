@@ -9,6 +9,9 @@ import content from "../img/change-content.svg"
 import CardOne from "../components/cardone"
 import CardTwo from "../components/cardtwo"
 import boy from "../img/boy-on-computer.svg"
+import design from "../img/design.svg"
+import development from "../img/development.svg"
+import maintenance from "../img/maintenance.svg"
 import "../style/main.scss"
 import Fade from 'react-reveal/Fade';
 
@@ -72,7 +75,7 @@ const IndexPage = () => {
 <CardOne 
 title= "Web Design"
 description= "Designed with latest trends in user experience and SEO our websites are converting machines"
-image= {boy}
+image= {design}
 alt= "bozo"
 
 
@@ -81,16 +84,16 @@ alt= "bozo"
 <CardTwo
 title= "Development"
 description= "Custom programmed with modern technology to fit the needs of the project."
-image= {boy}
+image= {development}
 alt= "bozo"
 
 
 />
 
 <CardOne 
-title= "Maintenence"
+title= "Maintenance"
 description= "We take care of the hosting, security, updates and anything else you need to stay up and running"
-image= {boy}
+image= {maintenance}
 alt= "bozo"
 
 
