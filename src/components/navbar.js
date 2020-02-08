@@ -1,60 +1,50 @@
-import React from "react"
-import {Link} from "gatsby"
 
-const activeStyle = {
-    color: '#FF1988',
+  import React from "react"
+  import {Link} from "gatsby"
+  
+  const activeStyle = {
+      color: '#FF6AB2',
+    }
+  
+  
+  const NavBar = ({ toggleNavbar, isActive }) => {    
+      return(
+          <div className={` navagation-wrap col-12 ${isActive ? 'mobile-wrap' : ''}`}> 
+  
+              <div id="main-nav-wrap">
+                  <div className="logo-wrap">
+                      <Link href="/">
+                    <span style={{color: "black", fontWeight: "bold"}}>Formal</span><span className="primary-color">Flamingo</span> </Link>
+  
+                  </div>
+                  <div >
+                      <div  className={` responsive-nav ${isActive ? 'mobile-nav' : ''}`}>
+                          <ul className="nav">
+                              <li><Link className="hack" activeStyle={activeStyle} to="/">Home</Link></li>
+                              <li><Link to="/about" activeStyle={activeStyle} className="hack">About</Link></li>
+                              <li><Link to="/blog" activeStyle={activeStyle} className="hack">Blog</Link></li>
+                              <li><Link to="/contact" activeStyle={activeStyle} className="hack">Contact</Link></li>
+                           
+  
+                            
+                          </ul>
+                      </div>
+                   
+                  </div>
+                  <div id="hamburger-wrap">
+                      <div  className={` burger-open ${isActive ? 'burger-close' : ''}`}
+              
+              data-target='nav-menu'
+              onClick={toggleNavbar}
+              aria-hidden={true}>
+                          <span className="line line01"></span>
+                          <span className="line line02"></span>
+                          <span className="line line03"></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+      )
   }
-
-const NavMenu = () => {
-    return(
-        
-        <div className="nav-menu">
-        <Link className="link" to="/" activeStyle={activeStyle}>
-            HOME
-        </Link>
-
-        <Link className="link" to="/about" activeStyle={activeStyle}>
-        ABOUT
-        </Link>
-
-        <Link className="link" to="/blog" activeStyle={activeStyle}>
-        BLOG
-        </Link>
-
-        <Link className="link" to="/contact" activeStyle={activeStyle}>
-        CONTACT
-        </Link>
-
-        </div>
-       
-    )
-}
-const NavBar = () => {    
-    return(
-        <nav className="top-nav">
-            <Link to="/">
-            <p style={{fontSize: '24px'}}> <span style={{color: 'black', fontWeight: 'bold'}}>Formal</span><span className="primary-color">Flamingo</span></p>
-            </Link>
-
-   <NavMenu></NavMenu> 
-   <div id="hamburger-wrap">
-    <div 
-     className="burger-open"
-            
-     data-target='navMenu'
-     
-    >
-        
-        <span className="line line01"></span>
-        <span className="line line02"></span>
-        <span className="line line03"></span>
-    </div>
-</div>
-
-
-   
-   </nav>   
-
-    )
-}
-export default NavBar
+  export default NavBar

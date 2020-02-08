@@ -1,10 +1,22 @@
 import React from "react"
-import NavBar from "./navbar"
+import NavBar from "./navbar" 
+
 
 
 
 
 class Layout extends React.Component {
+
+  constructor (props) {
+    super(props)
+    this.state = { isActive: false }
+    this.toggleNavbar = this.toggleNavbar.bind(this)
+  }
+
+  toggleNavbar () {
+    this.setState({ isActive: !this.state.isActive })
+  }
+
   render() {
     const {  children } = this.props
    
@@ -13,7 +25,7 @@ class Layout extends React.Component {
       <div >    
         <header>  
                  
-          <NavBar></NavBar>  
+        <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} />
                 
           </header>
         <main className="contain">{children}</main>   
