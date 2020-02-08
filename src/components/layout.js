@@ -33,7 +33,7 @@ class Layout extends React.Component {
         <section className="secondary-back flex align-center">
           <div className="col-6 ">
                     <h5 className="align-center">Formal Flamingo</h5>
-                   <p>A web design agency in Melbourne Florida specializing fucking up your shit.</p> 
+                   <p>A web design agency in Melbourne Florida specializing in helping your business dominate the web.</p> 
           </div>
 
           <div className="col-6 ">

@@ -68,13 +68,13 @@ const IndexPage = () => {
 
 <section className="card-container">
   <h3>Services</h3>
-  <p>We are online problem-solvers who specialize in getting the most from your website</p>
+  <p>We are online problem-solvers who specialize in getting the most from your business's website</p>
 
 <div className="flex justify-center" style={{margin: "50px 0"}}>
   
 <CardOne 
 title= "Web Design"
-description= "Designed with latest trends in user experience and SEO our websites are converting machines"
+description= "Designed with the latest trends in user experience and SEO our websites are converting machines"
 image= {design}
 alt= "bozo"
 
@@ -110,7 +110,7 @@ alt= "bozo"
   <h3 className="text-center" >Look at our SPEED!!! </h3>
   <div className="flex btn-margin">
     <div className="col-6">
-      <p>Our websites rebuild on changes to serve the browser with fully optimized static files that are easy to read. In addition, we use CDNs that pull the site from the closest of a network of servers making it faster everywhere. </p>
+      <p>Our websites are fast. Faster websites are a better experience for your users and lead to fewer people bouncing. Search engines like it when people get what they need from your site and don't leave because of slow load times. This is especially important for mobile users of your website. </p>
 
     </div>
     <div className="col-6">
@@ -136,7 +136,7 @@ link="/contact"
     </div>
     <div className="col-6">
     <h5 >Does your content change a lot? </h5>
-      <p>Whether you are building a blog or just need to update a few things we offer headless content management. Headless content management means that we can install the functionality of sites powered by WordPress or Drupal but still be faster, unique, and more secure.</p>
+      <p>Whether you are adding a blog to promote your website, or just need to update a few things we offer content management. We use a headless content management system. That means that we can install the functionality of sites powered by WordPress or Drupal but still be faster, unique, and more secure.</p>
 
     </div>
   
@@ -150,7 +150,7 @@ link="/contact"
   <div className="col-6 text-left ">
     <div className="space">
 <h5>Ask us how we can help.</h5>
-<p>Latin language, Latin lingua Latina, Indo-European language in the Italic group and ancestral to the modern Romance languages. ... The modern Romance languages developed from the spoken Latin  </p>
+<p>If your website is old you may not be taking advantage of the latest trends and technology that make can make your site better. Contact us and we will show you where your current website could be better and how it could affect meeting your goals. </p>
 </div>
 
  <div className="btn-margin" >
