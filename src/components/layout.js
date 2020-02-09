@@ -1,5 +1,7 @@
 import React from "react"
 import NavBar from "./navbar" 
+import facebook from "../img/facebook.svg"
+import twitter from "../img/twitter.svg"
 
 
 
@@ -39,8 +41,8 @@ class Layout extends React.Component {
           <div className="col-6 ">
             <h5 className="align-center">Follow Us</h5>
             <div> 
-             <a href="https://twitter.com/jasonprillo"><img alt="twitter icon" src="https://www.jasonprillo.com/img/twitter.png"></img></a>
-             <a href="https://twitter.com/jasonprillo"><img alt="twitter icon" src="https://www.jasonprillo.com/img/facebook.png"></img></a>
+             <a href="https://twitter.com/flamingodigital"><img alt=" pink and white twitter icon" src={twitter}></img></a>
+             <a href="https://facebook.com/formalflamingo"><img alt="pink and white facebook icon" src={facebook}></img></a>
              <a href="https://twitter.com/jasonprillo"><img alt="twitter icon" src="https://www.jasonprillo.com/img/dribbble.png"></img></a>
             </div>
             </div>
