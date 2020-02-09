@@ -138,3 +138,24 @@ justify-content: center;
 .blog-wrap{
   background: $light-color2; flex-wrap: wrap;justify-content: center;
 }
+
+
+.reverse{
+  flex-direction: column-reverse;
+  @include breakpoint(md){
+   flex-direction: row;
+  }
+}
+
+.add-pad{
+  @include breakpoint(md){
+  padding: 60px 10%;
+
+   }
+}
+
+.about-pad{
+  @include breakpoint(md){
+    padding: 0 5%;
+}
+}
