@@ -18,7 +18,7 @@ const Contact = () => {
      
   </div>  
   </div>
-  <form name="formalflamingo" method="POST" data-netlify="true" action="/about">
+  <form name="formalflamingo" method="POST" netlify="true" >
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
