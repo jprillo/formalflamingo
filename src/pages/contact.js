@@ -18,7 +18,11 @@ const Contact = () => {
      
   </div>  
   </div>
-  <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+
+  <div className="flex light-back2">
+      <div className="col-6">
+
+      <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
   <div>
@@ -36,6 +40,16 @@ const Contact = () => {
   </div>
 </form>
 
+
+      </div>
+      <div className="col-6">
+        <h3>Located in Melbourne Florida</h3>
+        <p>Dedicated to getting the most out of your online business. </p>
+        
+        </div>
+
+  </div>
+  
             </Layout>  
         </div>
     )
