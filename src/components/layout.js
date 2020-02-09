@@ -38,12 +38,12 @@ class Layout extends React.Component {
                    <p>A web design agency in Melbourne Florida specializing in helping your business dominate the web.</p> 
           </div>
 
-          <div className="col-6 ">
+          <div className="col-6 social-media">
             <h5 className="align-center">Follow Us</h5>
-            <div> 
+            <div > 
              <a href="https://twitter.com/flamingodigital"><img alt=" pink and white twitter icon" src={twitter}></img></a>
              <a href="https://facebook.com/formalflamingo"><img alt="pink and white facebook icon" src={facebook}></img></a>
-             <a href="https://twitter.com/jasonprillo"><img alt="twitter icon" src="https://www.jasonprillo.com/img/dribbble.png"></img></a>
+            
             </div>
             </div>
           </section>     
