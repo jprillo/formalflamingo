@@ -14,6 +14,7 @@ import development from "../img/development.svg"
 import maintenance from "../img/maintenance.svg"
 import "../style/main.scss"
 import Fade from 'react-reveal/Fade';
+import SEO from "../components/seo"
 
 
 const IndexPage = () => {
@@ -21,7 +22,9 @@ const IndexPage = () => {
   return(
     <div>
       <Layout>
-
+      <SEO title="Get the most out of your website"
+           description="Give your business a leg up with a new website made the right way. Melbourne FL Web Design and Development"
+          />
 <div className='hero-page'>
   <div className="flex">
     <div className="col-6">    
