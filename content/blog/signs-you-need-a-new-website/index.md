@@ -1,7 +1,7 @@
 ---
-title: Moving to Gatsby
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: How to know it's time for a new website.
+date: "2020-02-14T22:12:03.284Z"
+description: "Here are 5 signs that it is time to redesign your website. "
 ---
 
 This is my first post on my new fake blog! How exciting!
