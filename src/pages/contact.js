@@ -19,21 +19,24 @@ const Contact = () => {
   </div>  
   </div>
 
-  <div className="flex light-back2">
+  <section className="flex light-back2">
       <div className="col-6">
+
+        <h3>Let's Talk</h3>
 
       <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
-  <div>
-    <label>Your Name: <input type="text" name="name" /></label>   
+  <div className="form-input">
+    <label>Your Name:</label>  <input type="text" name="name" /> 
+   
   </div>
-  <div>
-    <label>Your Email: <input type="email" name="email" /></label>
+  <div className="form-input">
+    <label>Your Email:</label> <input type="email" name="email" />
   </div>
  
-  <div>
-    <label>Message: <textarea name="message"></textarea></label>
+  <div className="form-input">
+    <label>Message:</label> <textarea name="message"></textarea>
   </div>
   <div>
     <button type="submit" value="message">Send</button>
@@ -48,7 +51,7 @@ const Contact = () => {
         
         </div>
 
-  </div>
+  </section>
   
             </Layout>  
         </div>

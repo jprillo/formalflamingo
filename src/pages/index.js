@@ -35,7 +35,7 @@ const IndexPage = () => {
       </div>
     </div>
     <div className="col-6 hero-image">
-    <img src={flamingo} alt="a flaingo with a tophat and bowtie"></img>
+    <img src={flamingo} alt="a flamingo with a tophat and bowtie"></img>
     </div>
   </div>  
   </div>
