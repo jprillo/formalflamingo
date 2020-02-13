@@ -20,7 +20,7 @@ const Contact = () => {
   </div>
 
   <section className="flex light-back2">
-      <div className="col-6">
+      <div className="col-6" style={{marginBottom: "80px"}}>
 
         <h3>Let's Talk</h3>
 
@@ -28,15 +28,15 @@ const Contact = () => {
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
   <div className="form-input">
-    <label>Your Name:</label>  <input type="text" name="name" /> 
+    <label><span style={{textAlign: "left"}}>Your Name: </span> <input type="text" name="name" /> </label>
    
   </div>
   <div className="form-input">
-    <label>Your Email:</label> <input type="email" name="email" />
+    <label>Your Email:<input type="email" name="email" /></label> 
   </div>
  
   <div className="form-input">
-    <label>Message:</label> <textarea name="message"></textarea>
+    <label>Message: <textarea name="message"></textarea></label>
   </div>
   <div>
     <button type="submit" value="message">Send</button>
