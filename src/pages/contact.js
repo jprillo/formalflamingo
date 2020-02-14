@@ -19,7 +19,7 @@ const Contact = () => {
   </div>  
   </div>
 
-  <div className="flex light-back2">
+  <section className="flex light-back2">
       <div className="col-6">
 <h3>Let's talk about it. </h3>
       <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/about">
@@ -44,11 +44,11 @@ const Contact = () => {
       </div>
       <div className="col-6">
         <h3>Located in Melbourne Florida</h3>
-        <p>Dedicated to getting the most out of your online business. </p>
+        <p>Dedicated to getting the most out of your online business.</p>
         
         </div>
 
-  </div>
+  </section>
   
             </Layout>  
         </div>
