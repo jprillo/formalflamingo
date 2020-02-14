@@ -12,7 +12,7 @@ const Contact = () => {
   <div className="flex">
     <div className="col-7" style={{margin: "0 auto"}}>    
       <h1 className="align-center">Contact</h1>     
-      <h2 className="align-center">Let's start maximizing your business online.</h2> 
+      <h2 className="align-center">Ready start maximizing your business online?</h2> 
     </div>  
     
      
@@ -21,7 +21,7 @@ const Contact = () => {
 
   <div className="flex light-back2">
       <div className="col-6">
-
+<h3>Let's talk about it. </h3>
       <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
