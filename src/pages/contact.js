@@ -22,7 +22,7 @@ const Contact = () => {
   <div className="flex light-back2">
       <div className="col-6">
 <h3>Let's talk about it. </h3>
-      <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/about">
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="form-name" value="contact"/>
   <div>
