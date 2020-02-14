@@ -186,3 +186,15 @@ margin: 0 10px;
     fill: $accent-color;
   }
 }
+
+
+form{
+  text-align: center;
+  div{
+    margin: 1em;
+  }
+  label{
+    font-family: $primary-font;
+    
+  }
+}
