@@ -1,12 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../style/main.scss"
+import SEO from "../components/seo"
+
 
 const Contact = () => {    
     return(
    
         <div>
            <Layout>
+           <SEO title="Contact Us"
+           description="Are you ready to start making the most out of your online business. Let's talk about your new website. Melbourne FL."
+          />
           
 <div className='hero-page'>
   <div className="flex">

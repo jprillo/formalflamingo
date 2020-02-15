@@ -4,6 +4,8 @@ import {Link} from "gatsby"
 import jason from "../img/jason.png"
 import sara from "../img/sara.png"
 import "../style/main.scss"
+import SEO from "../components/seo"
+
 
 
 const AboutPage = () => {    
@@ -11,7 +13,9 @@ const AboutPage = () => {
   
         <div>
            <Layout>
-
+           <SEO title="About Us"
+           description="We are a web design agency in Melbourne Florida specializing in building fast, modern, and original websites. "
+          />
             
 <div className='hero-page'>
   <div className="flex">
