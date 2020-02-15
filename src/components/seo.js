@@ -37,8 +37,8 @@ function SEO({ description, lang, meta, title }) {
     },{
       "@type": "ListItem",
       "position": 2,
-      "name": head.title,
-      "item": window.location.href
+      "name": "head.title",
+      "item": "window.location.href"
     }]
   };
   
