@@ -26,14 +26,14 @@ const Contact = () => {
     <input type="hidden" name="bot-field"/>
     <input type="hidden" name="formalflamingo" value="contact"/>
   <div>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label>Your Name: <input type="text" name="name" required /></label>   
   </div>
   <div>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label>Your Email: <input type="email" name="email" required /></label>
   </div>
  
   <div>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Message: <textarea name="message" required></textarea></label>
   </div>
   <div>
     <button type="submit" value="message">Send</button>
