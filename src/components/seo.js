@@ -26,7 +26,22 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-
+  const ldJson = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Blogs",
+      "item": "https://www.speblog.org"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": head.title,
+      "item": window.location.href
+    }]
+  };
+  
   return (
     <Helmet
       htmlAttributes={{
@@ -68,7 +83,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+
+<script type="application/ld+json">{JSON.stringify(ldJson)}</script>
+    </Helmet>
   )
 }
 
