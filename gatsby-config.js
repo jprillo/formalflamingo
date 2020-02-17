@@ -3,12 +3,13 @@ module.exports = {
     title: `Formal Flamingo Web Design`,
     author: `Jason Prillo`,
     description: `A Web Agency in Melbourne Florida.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://formalflamingo.com/`,
     social: {
       twitter: `jasonprillo`,
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
