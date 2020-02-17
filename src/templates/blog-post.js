@@ -25,7 +25,7 @@ class BlogPostTemplate extends React.Component {
   <div className="flex">
     <div className="col-6">  
       
-      <h1>{post.frontmatter.title}</h1>     
+      <h1 className="align-center">{post.frontmatter.title}</h1>     
   
     </div>   
   </div>  
