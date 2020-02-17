@@ -1,2 +1,4 @@
 User-agent: *
+
+sitemap: https://formalflamingo.com/sitemap.xml
 Disallow:
