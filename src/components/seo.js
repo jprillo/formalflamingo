@@ -26,20 +26,19 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+
   const ldJson = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Blogs",
-      "item": "https://www.speblog.org"
-    },{
-      "@type": "ListItem",
-      "position": 2,
-      "name": "head.title",
-      "item": "window.location.href"
-    }]
+    "@context": "http://www.schema.org",
+    "@type": "ProfessionalService",
+    "name": "Formal Flamingo Web Design",
+    "url": "https://formalflamingo.com",
+    "description": "Formal Flamingo is a web design agency in Melbourne FL. ",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Melbourne",
+      "addressRegion": "FL"
+    }
   };
   
   return (
