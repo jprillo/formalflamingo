@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEOArticle({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            
           }
         }
       }
@@ -29,16 +30,15 @@ function SEO({ description, lang, meta, title }) {
 
 
   const ldJson = {
-    "@context": "http://www.schema.org",
-    "@type": "ProfessionalService",
-    "name": "Formal Flamingo Web Design",
-    "url": "https://formalflamingo.com",
-    "description": "Formal Flamingo is a web design agency in Melbourne FL. ",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Melbourne",
-      "addressRegion": "FL"
-    }
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": title,    
+    "author": {
+      "@type": "Organization",
+      "name": "Formal Flamingo Web Design"
+    },  
+   
+  
   };
   
   return (
@@ -89,17 +89,17 @@ function SEO({ description, lang, meta, title }) {
   )
 }
 
-SEO.defaultProps = {
+SEOArticle.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
 }
 
-SEO.propTypes = {
+SEOArticle.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default SEOArticle

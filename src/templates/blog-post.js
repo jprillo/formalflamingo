@@ -3,7 +3,8 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
+import SEOArticle from "../components/seo-article"
 
 
 class BlogPostTemplate extends React.Component {
@@ -14,7 +15,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
+        <SEOArticle
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
@@ -91,6 +92,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image
       }
     }
   }
