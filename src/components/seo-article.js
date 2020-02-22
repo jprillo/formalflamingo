@@ -32,7 +32,7 @@ function SEOArticle({ description, lang, meta, title }) {
   const ldJson = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "{{title}}",    
+    "headline": title,    
     "author": {
       "@type": "Organization",
       "name": "Formal Flamingo Web Design"
