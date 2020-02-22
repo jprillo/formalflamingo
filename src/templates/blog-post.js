@@ -22,20 +22,18 @@ class BlogPostTemplate extends React.Component {
         <article>
           <header>
           
-<div className='hero-page'>
-  <div className="flex">
-    <div className="col-6">  
-      
-      <h1 className="align-center">{post.frontmatter.title}</h1>     
+<div  className='hero-page'>
+ 
+      <p className="blog-date">{post.frontmatter.date}</p>
+      <h1  className="align-center">{post.frontmatter.title}</h1>     
   
-    </div>   
-  </div>  
+ 
   </div>
   
            
           </header>
           
-          <div className="col-7" style={{paddingTop: "30px",margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="article" dangerouslySetInnerHTML={{ __html: post.html }} />
          
        
           <footer  className="light-back2">
