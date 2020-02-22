@@ -24,7 +24,7 @@ class BlogPostTemplate extends React.Component {
           
 <div className='hero-page'>
   <div className="flex">
-    <div className="col-12">  
+    <div className="col-6">  
       
       <h1 className="align-center">{post.frontmatter.title}</h1>     
   
@@ -34,10 +34,10 @@ class BlogPostTemplate extends React.Component {
   
            
           </header>
-          <section>
-          <div  dangerouslySetInnerHTML={{ __html: post.html }} />
+          
+          <div className="col-7" style={{paddingTop: "30px",margin: "0 auto" }} dangerouslySetInnerHTML={{ __html: post.html }} />
          
-          </section>
+       
           <footer  className="light-back2">
           <nav className="light-back2" style={{padding: "2% 5%"}}>
           <ul
