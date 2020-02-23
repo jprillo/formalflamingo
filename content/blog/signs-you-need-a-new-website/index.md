@@ -1,22 +1,29 @@
 ---
-title: How to know it's time for a new website.
+title: Time for a website redesign?
 date: "2020-02-14T22:12:03.284Z"
-description: "Here are 5 signs that it is time to redesign your website. "
+description: "Here are the signs that it is time to redesign your website. "
 ---
 
-This is my first post on my new fake blog! How exciting!
+It can be hard to justify investing in your business's website but a good website can more than pay for itself where a bad one isn't free and does nothing. 
+The most common advice I could find in a google search is to address your website every 2-3 years.  That sounds about right according to these reasons for a new website. Some you can avoid and some you can not.
 
-I'm sure I'll write a lot more interesting things in the future.
+###Broken website.	
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
+It could be a few links or the entire thing but having things on your website that doesn't work is a bummer. Isn't the best first impression on a potential customer. 
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+###Your website is slow. 			
 
-![Chinese Salty Egg](./salty_egg.jpg)
+If your website takes a long time to load then users will go elsewhere. You want your potential customers to get what they want as fast as possible. It also helps in getting your site indexed well on search engines. 
+
+###The business has changed 										
+Have things about your business changed in a way that could be better represented on a new website? Maybe your branding has changed. Make sure your website represents your business as it is today.
+
+###Not designed for Phones									 
+Most users are going to access your website with their phone. Make sure it isn't hard to read.  
+
+###Improve user-experience 										
+A phone button that calls your store, a scrollable menu, captioned images, blogs, and galleries are just some ways to make the website better for your users. Check and see if your website is making use of the latest trends in web development to give your users a better experience.
+
+###Not ranking well																	
+This could be caused by a ton of different reasons including some of the ones mentioned above. Having a site that is optimized correctly for the search engine is the best way to get a leg up on your search engine ranking. 
+
