@@ -26,7 +26,7 @@ class BlogIndex extends React.Component {
   </div>  
   </div>
   
-  <section className="flex blog-wrap" >
+  <div className="flex blog-wrap" >
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -52,7 +52,7 @@ class BlogIndex extends React.Component {
                   </Link>
             </article>
           )
-        })}</section>
+        })}</div>
       </Layout>
     )
   }
