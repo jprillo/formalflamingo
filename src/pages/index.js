@@ -22,20 +22,20 @@ const IndexPage = () => {
   return(
     <div>
       <Layout>
-      <SEO title="Get the most out of your website"
-           description="Give your business a leg up with a new website made the right way. Melbourne FL Web Design and Development"
+      <SEO title="Melbourne, FL Web Design"
+           description="Give your business a leg up with a great website. A wed design and development agency in Melbourne, Florida."
           />
 <div className='hero-page'>
   <div className="flex">
     <div className="col-6">    
-      <h1>Web Design and Development</h1>     
+      <h1>Melbourne, FL Web Design</h1>     
       <h2>Give your business a leg up with a great website</h2> 
       <div className="btn-margin">
       <a className="primary-button" href="/contact">Learn More</a>
       </div>
     </div>
     <div className="col-6 hero-image">
-    <img src={flamingo} alt="a flaingo with a tophat and bowtie"></img>
+    <img src={flamingo} alt="a flamingo with a tophat and bowtie"></img>
     </div>
   </div>  
   </div>
@@ -47,13 +47,13 @@ const IndexPage = () => {
 <div className="flex margin-top">
   <Fade left>
   <div className="col-6 hero-image">
-<img src={creatures} alt="ok"></img>
+<img src={creatures} alt="Creatures building and designing a website"></img>
   </div>  
   </Fade>
   <Fade right>
   <div className="col-6 text-left ">
 
-<p>Our websites are ...</p>
+<p style={{fontWeight: "bold"}}>Our websites are ...</p>
 <p>Fast</p>
 <p>Secure</p>
 <p>Reliable</p>
@@ -79,7 +79,7 @@ const IndexPage = () => {
 title= "Web Design"
 description= "Designed with the latest trends in user experience and SEO our websites are converting machines"
 image= {design}
-alt= "bozo"
+alt= "Web Design"
 
 
 />
@@ -88,7 +88,7 @@ alt= "bozo"
 title= "Development"
 description= "Custom programmed with modern technology to fit the needs of the project."
 image= {development}
-alt= "bozo"
+alt= "Web Development"
 
 
 />
@@ -97,7 +97,7 @@ alt= "bozo"
 title= "Maintenance"
 description= "We take care of the hosting, security, updates and anything else you need to stay up and running"
 image= {maintenance}
-alt= "bozo"
+alt= "Web Maintenance"
 
 
 />
@@ -117,7 +117,7 @@ alt= "bozo"
 
     </div>
     <div className="col-6">
-     <img src={car} alt="test"></img>
+     <img src={car} alt="flamingo driving a car"></img>
       
     </div>
   </div>
@@ -134,7 +134,7 @@ link="/contact"
   
   <div className="flex btn-margin">
   <div className="col-6">
-     <img src={content} alt="test"></img>
+     <img src={content} alt="content management system "></img>
       
     </div>
     <div className="col-6">
@@ -147,13 +147,13 @@ link="/contact"
 
 </section>
 <section className="hero-about light-back2">
-<h3>Is your website not performing the way you want?</h3>
+<h3>Is your website performing the way you want?</h3>
 <div className="flex margin-top">
 
   <div className="col-6 text-left ">
     <div className="space">
 <h5>Ask us how we can help.</h5>
-<p>If your website is old you may not be taking advantage of the latest trends and technology that make can make your site better. Contact us and we will show you where your current website could be better and how it could affect meeting your goals. </p>
+<p>If your website is old you may not be taking advantage of the latest trends and technology. Contact us and we will show you where your current website could be better and how it could affect meeting your goals. </p>
 </div>
 
  <div className="btn-margin" >
@@ -162,7 +162,7 @@ link="/contact"
  </div>
   </div>
   <div className="col-6">
-<img src={boy} alt="ok"></img>
+<img src={boy} alt="man building a website design"></img>
   </div>
 </div>
 </section>
