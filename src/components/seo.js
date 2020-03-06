@@ -30,15 +30,13 @@ function SEO({ description, lang, meta, title }) {
 
   const ldJson = {
     "@context": "http://www.schema.org",
-    "@type": "ProfessionalService",
-    "name": "Formal Flamingo Web Design",
+    "@type": "WebPage",
+    "@id":"https://formalflamingo.com/#webpage",
     "url": "https://formalflamingo.com",
-    "description": "Formal Flamingo is a web design agency in Melbourne FL. ",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Melbourne",
-      "addressRegion": "FL"
-    }
+    "name":"Melbourne FL Web Design | Formal Flamingo",
+    "isPartOf":{"@id":"https://formalflamingo.com/#website"},
+    "description":"Melbourne Florida web design and development"
+  
   };
   
   return (

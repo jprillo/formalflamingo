@@ -22,8 +22,8 @@ const IndexPage = () => {
   return(
     <div>
       <Layout>
-      <SEO title="Melbourne, FL Web Design"
-           description="Give your business a leg up with a great website. A wed design and development agency in Melbourne, Florida."
+      <SEO title="Melbourne FL Web Design"
+           description="Give your business a leg up with a great website. A web design and development agency in Melbourne Florida."
           />
 <div className='hero-page'>
   <div className="flex">

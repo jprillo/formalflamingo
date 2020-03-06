@@ -33,8 +33,8 @@ class BlogIndex extends React.Component {
             <article  className="col-5 blog-article" key={node.fields.slug}>
               <header >
               <small>{node.frontmatter.date}</small>
-                <h3 className="secondary-color" style={{padding: "5px"}}>
-                  <Link  to={node.fields.slug}>
+                <h3 >
+                  <Link className="secondary-color" style={{padding: "5px"}}  to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
