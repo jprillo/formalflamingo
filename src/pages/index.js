@@ -127,7 +127,7 @@ alt= "Web Maintenance"
 <CTA
 title="Let's Work Together"
 linkText="Contact Us"
-link="/contact"
+link="/contact/"
 />
 
 <section className="two-panel">

@@ -23,7 +23,7 @@ const AboutPage = () => {
       <h1 className="align-center">About Us</h1>     
       <h2 className="align-center">We are passionate about modern web development and design</h2> 
       <div className="btn-margin align-center">
-      <Link className="primary-button" to="/contact">Learn More</Link>
+      <Link className="primary-button" to="/contact/">Learn More</Link>
       </div>
     </div>   
   </div>  
@@ -66,7 +66,7 @@ const AboutPage = () => {
   <section className="light-back1">
     <h3>Our goal is to deliver the fastest, highest performing websites available to businesses looking for an edge online. </h3>
     <div className="btn-margin align-center">
-      <Link className="primary-button" to="/contact">Let's Talk</Link>
+      <Link className="primary-button" to="/contact/">Let's Talk</Link>
       </div>
   </section>
  
