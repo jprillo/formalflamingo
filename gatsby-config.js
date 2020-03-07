@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
