@@ -83,6 +83,7 @@ function SEO({ description, lang, meta, title }) {
     >
 
 <script type="application/ld+json">{JSON.stringify(ldJson)}</script>
+<meta name="google-site-verification" content="JA8lIlFfpwJ-MswIz19iWnjrBBsNl8cjYeCYWuyIFBE" />
     </Helmet>
   )
 }
