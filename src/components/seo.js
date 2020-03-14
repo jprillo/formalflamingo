@@ -79,11 +79,16 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `google-site-verification`,
+          content: `JA8lIlFfpwJ-MswIz19iWnjrBBsNl8cjYeCYWuyIFBE`,
+        },
+        
       ].concat(meta)}
     >
 
 <script type="application/ld+json">{JSON.stringify(ldJson)}</script>
-<meta name="google-site-verification" content="JA8lIlFfpwJ-MswIz19iWnjrBBsNl8cjYeCYWuyIFBE" />
+
     </Helmet>
   )
 }
