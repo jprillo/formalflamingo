@@ -31,7 +31,7 @@ const IndexPage = () => {
       <h1>Melbourne, FL Web Design</h1>     
       <h2>Give your business a leg up with a great website</h2> 
       <div className="btn-margin">
-      <a className="primary-button" href="/contact">Learn More</a>
+      <a className="primary-button" href="/contact/">Contact Us</a>
       </div>
     </div>
     <div className="col-6 hero-image">
@@ -61,7 +61,7 @@ const IndexPage = () => {
 
 <p>We make the whole process as easy as possible so you can concentrate on your business. Set up a free consultation and see what solutions we come up with </p>
   <div className="btn-margin">
-  <a className="primary-button" href="./contact">Learn More</a>
+  <a className="primary-button" href="./contact/">Contact Us</a>
   </div>
   
   </div>
@@ -104,7 +104,7 @@ alt= "Web Maintenance"
 
 </div>
 <div className="btn-margin">
-<a className="primary-button" href="./contact">Find out what else we do.</a>
+<a className="primary-button" href="./contact/">Find out what else we do.</a>
 </div>
 </section>
 
@@ -158,7 +158,7 @@ link="/contact/"
 
  <div className="btn-margin" >
    
- <a className="primary-button" href="about">Learn More</a> 
+ <a className="primary-button" href="./about/">About Us</a> 
  </div>
   </div>
   <div className="col-6">

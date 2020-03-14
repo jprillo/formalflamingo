@@ -23,7 +23,7 @@ const AboutPage = () => {
       <h1 className="align-center">About Us</h1>     
       <h2 className="align-center">We are passionate about modern web development and design</h2> 
       <div className="btn-margin align-center">
-      <Link className="primary-button" to="/contact/">Learn More</Link>
+      <Link className="primary-button" to="/contact/">Contact Us</Link>
       </div>
     </div>   
   </div>  
