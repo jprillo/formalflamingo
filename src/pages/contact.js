@@ -28,7 +28,7 @@ const Contact = () => {
       <div className="col-6">
 <h3>Let's talk about it. </h3>
 
-     <form name="new-contact" method="POST" data-netlify="true" content-type="application/x-www-form-urlencoded">
+     <form name="new-contact" method="POST" data-netlify="true" enctype="application/x-www-form-urlencoded">
   <p>
     <label>Your Name: <input type="text" name="name" required /></label>   
   </p>
