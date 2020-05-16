@@ -51,7 +51,7 @@ class Layout extends React.Component {
          
 
 
-          <a  href="https://www.gatsbyjs.org">Formal Flamingo Web Design</a>
+          <a  href="https://formalflamingo.com">Formal Flamingo Web Design</a>
           © {new Date().getFullYear()}
         </footer>
       
