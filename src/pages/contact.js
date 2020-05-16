@@ -27,21 +27,20 @@ const Contact = () => {
   <section className="flex light-back2">
       <div className="col-6">
 <h3>Let's talk about it. </h3>
-      <form name="formalflamingo" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/about">
-    <input type="hidden" name="bot-field"/>
-    
-  
-    <label>Your Name: <input type="text" name="name" required /></label>   
-  
-    <label>Your Email: <input type="email" name="email" required /></label>
-  
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
  
-
-    <label>Message: <textarea name="message" required></textarea></label>
-  
-  
-    <button type="submit" >Send</button>
-  
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
 
 
