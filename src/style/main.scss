@@ -220,9 +220,20 @@ margin: 0 10px;
   }
 }
 
+.form-btn{
+padding: .5em 1em;
+background: $primary-color;
+color: white;
+font-family: $primary-font;
+font-weight: 700;
+&:hover{
+  background-color: $secondary-color;
+}
+}
 
 form{
   text-align: center;
+  
   div{
     margin: 1em;
   }
@@ -230,4 +241,11 @@ form{
     font-family: $primary-font;
     
   }
+}
+.field{
+  @include breakpoint(md){
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5em;
+}
 }
