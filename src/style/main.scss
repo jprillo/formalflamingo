@@ -13,6 +13,8 @@ body {
   --bg: white;
   --sbg: #97CFED;
   --vbg: ##97CFED;
+  --icon: yellow;
+  --iconv: 0 0 15px 5px orange;
   --textNormal: #222;
   --textTitle: #222;
   --textLink: blue;
@@ -27,6 +29,8 @@ body.dark {
   --bg: #1B0F0F;
   --sbg: rgb(39, 32, 32);
   --vbg: #1b0f0f;
+  --iconv: none;
+  --icon: #97cfed;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
   --textLink: yellow;
@@ -312,12 +316,16 @@ p, h3, h4, h5, .formal{
 .checkmark {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background-color: yellow;
-  box-shadow: 0 0 15px 5px orange;
+  margin: 10px 10px;
+  background-color: var(--icon);
+  box-shadow: var(--iconv);
+  @include breakpoint(md){
+  margin: 0;
+  }
 }
 
 /* On mouse-over, add a grey background color */
@@ -325,7 +333,7 @@ p, h3, h4, h5, .formal{
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #97CFED;
+  background-color: var(--icon);
   box-shadow: none;
 }
 
@@ -347,7 +355,7 @@ p, h3, h4, h5, .formal{
   top: 5px;
   width: 5px;
   height: 10px;
-  border: yellow;
+  border: var(--icon);
   
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);

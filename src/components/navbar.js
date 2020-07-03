@@ -26,7 +26,17 @@
                               <li><Link to="/about/" activeStyle={activeStyle} className="hack">About</Link></li>
                               <li><Link to="/blog/" activeStyle={activeStyle} className="hack">Blog</Link></li>
                               <li><Link to="/contact/" activeStyle={activeStyle} className="hack">Contact</Link></li>
-                              <ThemeToggler>
+                             
+                       
+  
+                            
+                          </ul>
+                      </div>
+                   
+                  </div>
+      <div style={{display: "flex"}}> 
+
+      <ThemeToggler>
         {({ theme, toggleTheme }) => (
            
           
@@ -42,13 +52,7 @@
           </label>
         )}
       </ThemeToggler> 
-                       
-  
-                            
-                          </ul>
-                      </div>
-                   
-                  </div>
+      
                   <div id="hamburger-wrap">
                       <div  className={` burger-open ${isActive ? 'burger-close' : ''}`}
               
@@ -59,6 +63,7 @@
                           <span className="line line02"></span>
                           <span className="line line03"></span>
                       </div>
+                  </div>
                   </div>
               </div>
           </div>
