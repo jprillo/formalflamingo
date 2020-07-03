@@ -40,16 +40,17 @@
         {({ theme, toggleTheme }) => (
            
           
-       
-          <label class="container">
+       <div class="container">
+          <label >
             <input
             className="checkbox"
               type="checkbox"
-              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+              onClick={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}
             />{' '}
            <span class="checkmark"></span>
           </label>
+          </div>
         )}
       </ThemeToggler> 
       
