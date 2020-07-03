@@ -1,7 +1,8 @@
 
   import React from "react"
   import {Link} from "gatsby"
-  
+  import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
   const activeStyle = {
       color: '#FF6AB2',
     }
@@ -14,17 +15,34 @@
               <div id="main-nav-wrap">
                   <div className="logo-wrap">
                       <Link href="/">
-                    <span style={{color: "black", fontWeight: "bold"}}>Formal</span><span className="primary-color">Flamingo</span> </Link>
+                    <span className="formal" >Formal</span><span className="primary-color">Flamingo</span> </Link>
   
                   </div>
+                  
                   <div >
                       <div  className={` responsive-nav ${isActive ? 'mobile-nav' : ''}`}>
                           <ul className="nav">
-                              <li><Link className="hack" activeStyle={activeStyle} to="/">Home</Link></li>
+                                     <li><Link className="hack" activeStyle={activeStyle} to="/">Home</Link></li>
                               <li><Link to="/about/" activeStyle={activeStyle} className="hack">About</Link></li>
                               <li><Link to="/blog/" activeStyle={activeStyle} className="hack">Blog</Link></li>
                               <li><Link to="/contact/" activeStyle={activeStyle} className="hack">Contact</Link></li>
-                           
+                              <ThemeToggler>
+        {({ theme, toggleTheme }) => (
+           
+          
+       
+          <label class="container">
+            <input
+            className="checkbox"
+              type="checkbox"
+              onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+              checked={theme === 'dark'}
+            />{' '}
+           <span class="checkmark"></span>
+          </label>
+        )}
+      </ThemeToggler> 
+                       
   
                             
                           </ul>
