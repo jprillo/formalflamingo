@@ -101,7 +101,7 @@ margin-left: 25px;
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   padding: 18vh 10% 10% 10%;
   display: flex;
   flex-direction: column;
@@ -143,7 +143,10 @@ margin-left: 25px;
 
 }
 .nav{
-    display: none;
+  position: fixed;
+  right: -100vw;
+  transition: all .3s ease-in-out;
+  
   @include breakpoint(md){
       width: auto;
       position: relative;  
@@ -152,6 +155,8 @@ margin-left: 25px;
       flex-direction: row;
       height: auto;  
       background: inherit;
+      left: 0;
+      transition: none;
      
 
   }
